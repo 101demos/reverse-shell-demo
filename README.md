@@ -1,5 +1,4 @@
-## Reverse Shell demo between 2 computers on the same network, a server (attacker computer), and a client (victim computer).
-## *Can be done on a remote target but local targets are faster for a demo, result is identical*
+## Reverse Shell demo between 2 computers on the same network, a server (attacker computer), and a client (victim computer). This can be done on a remote target but local targets are faster for a demo, result is identical.
 
 ### 1) Install NetCat/Nmap
 
